@@ -1,0 +1,61 @@
+body {
+    font-family: inter,  sans-serif; /* Семейство шрифтов */
+    font-size: 18px; /* Размер основного шрифта в <p></p>  */
+    background-color: #ffffff; /* Цвет фона веб-страницы */
+    color: #000000; /* Цвет основного текста */ 
+    text-align: center;
+    border: 3px solid #000000;  
+    border-radius: 50px;
+    padding: 5px;
+}
+
+h1 {
+    color: #000000; /* Цвет заголовка */
+    font-size: 30px; /* Размер шрифта в пунктах */
+    font-family: inter,  sans-serif; /* Семейство шрифтов */
+    background-color: #D6FF6B;
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+h2 {
+    color: #000000;
+    font-size: 30px;
+    font-family: inter,  sans-serif;
+    background-color: #D6FF6B;
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+img {
+    border-radius: 40px;
+    width: 500px;
+}
+
+p {
+    font-size: 25px;
+    font-family: inter,  sans-serif;
+    background-color: #5988FF;
+    border: 0px solid black;
+    border-radius: 25px;
+}
+
+li {
+    font-family: inter,  sans-serif;
+    background-color: #5988FF;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+h1 {
+  animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+  0%   { color: blue; }
+  50%  { color: red; }
+  100% { color: blue; }
+}
